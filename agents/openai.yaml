@@ -1,0 +1,6 @@
+interface:
+  display_name: "codex-fix-reconnecting5/5"
+  short_description: "诊断 Windows Codex 反复重连，通过系统代理前后对照验证并最小化修复配置"
+  default_prompt: "使用 $codex-fix-reconnecting5-5 排查 Codex / Work 每次回答前 Reconnecting 5/5 的问题，并验证最小修复。"
+policy:
+  allow_implicit_invocation: true
